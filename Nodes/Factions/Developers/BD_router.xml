@@ -5,7 +5,7 @@
   <ports>21, 22, 25, 80, 1433</ports>
   <adminPass pass="RPG" />
 <firewall level="8" solution="OVERLORD" />
- <proxy time="2" />
+ <proxy time="0.5" />
 <dlink target="BD_Auth" />
 
 

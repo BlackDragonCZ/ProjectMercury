@@ -9,9 +9,15 @@
 <dlink target="BD_Main" />
 <dlink target="BD_router" />
 
-<file path="bin" name="Steam.exe">#BINARY##BINARY#</file>
-<file path="bin" name="trnt.exe">#TORRENT_EXE#</file>
+<file path="bin" name="Steam.exe">#BINARY##BINARY##RANDOM_IP#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
 <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+<file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="home" name="login.txt">Username: BlackDragonCZ
+password: Dragon
+</file>
 
 <encryptedFile path="home" name="topsecret.dec" ip="localhost" extension=".txt" header="hope" double="true" pass="dragon">
 https://www.furaffinity.net/user/blackdragoncz/

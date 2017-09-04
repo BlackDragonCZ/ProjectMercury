@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="BD_Auth"  name="BDAuthenticationServer" icon="DLCServer" type="empty">
+<Computer id="R_Auth"  name="Reactor Authentication" ip="78.148.563.21" icon="chip" type="empty">
 
-  <portsForCrack val="5" />
+  <portsForCrack val="2" />
   <ports>21, 22, 25, 80, 1433</ports>
-<firewall level="8"  />
  <proxy time="0.5" />
 
-<dlink target="K_Auth" />
+<dlink target="R_IRC" />
+<dlink target="R_Main" />
 
   <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
 

@@ -4,7 +4,7 @@
   <portsForCrack val="10" />
   <ports>21, 22, 25, 80, 104, 1433, 192, 6881, 443, 554</ports>
 <firewall level="7" solution="REACTOR" />
- <proxy time="1" />
+ <proxy time="0.5" />
 <dlink target="R_IRC" />
 <dlink target="R_Auth" />
 

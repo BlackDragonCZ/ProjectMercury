@@ -1,0 +1,2 @@
+IP for homerouter will attached into "Secret mission.xml"
+IP: 162.128.1.1

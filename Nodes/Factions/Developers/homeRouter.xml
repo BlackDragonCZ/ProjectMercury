@@ -10,4 +10,7 @@
 <dlink target="Black" />
 
   <file path="bin" name="NetMapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <ispSystem />
+
 </Computer>

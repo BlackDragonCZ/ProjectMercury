@@ -4,7 +4,7 @@
   <portsForCrack val="4" />
   <ports>21, 22, 25, 80</ports>
 <firewall level="4"  />
- <proxy time="1" />
+ <proxy time="0.5" />
 
 
 <WhitelistAuthenticatorDaemon Remote="K_Auth"/>

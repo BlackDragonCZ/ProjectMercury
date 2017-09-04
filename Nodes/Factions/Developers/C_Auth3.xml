@@ -4,7 +4,7 @@
   <portsForCrack val="3" />
   <ports>104, 192, 1433</ports>
 <firewall level="5"  />
- <proxy time="1" />
+ <proxy time="0.5" />
 
 <dlink target="TheCore" />
 

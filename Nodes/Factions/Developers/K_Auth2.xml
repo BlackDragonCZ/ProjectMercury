@@ -4,7 +4,7 @@
   <portsForCrack val="1" />
   <ports>21, 22, 25, 80, 1433</ports>
 <firewall level="3" solution="RAW"  />
- <proxy time="2" />
+ <proxy time="0.5" />
 
 <dlink target="TheCore" />
 <dlink target="C_Auth1" />

@@ -5,7 +5,7 @@
   <ports>21, 22, 25, 80, 104, 1433, 192, 6881, 443, 554</ports>
   <adminPass pass="d5er74ys" />
 <firewall level="8" solution="OVERLORD" />
- <proxy time="2" />
+ <proxy time="0.1" />
 
 
 <WhitelistAuthenticatorDaemon Remote="BD_Auth"/>
