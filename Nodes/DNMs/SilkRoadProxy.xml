@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SilkRoadProxy" name="The Silk Road (Proxy)" ip="#RANDOM_IP#" type="3" allowsDefaultBootModule="false" icon="DLCServer">
+	<dlink computer="TOR-Proxy02"
+<adminPass pass="TheSilkyRoads" />
+<ports>80,6881,554</ports>
+<portsForCrack val="9999" />
+<firewall level="5" solution="TheOn" additionalTime="1"/>
+
+<admin type="progress" resetPassword="false" isSuper="False"/>
+
+<file path="tor" name="Tor.exe"></file>
+<file path="server" name="BLANK"></file>
+</Computer>

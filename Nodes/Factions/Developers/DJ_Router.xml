@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DJ_router" ip="587.23.1.14" name="DJ's home router" type="empty">
+
+  <portsForCrack val="2" />
+ <proxy time="0.5" />
+
+<dlink target="DJMain" />
+
+ <Memory>
+    <Commands>
+home/rm data.txt
+    </Commands>
+    <Data>
+      <Block>
+Auth IP: 001.254.1.1
+	</Block>
+    </Data>
+    <Images>
+    </Images>
+  </Memory>
+
+</Computer>

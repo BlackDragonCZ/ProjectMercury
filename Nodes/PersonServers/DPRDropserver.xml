@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DPRDrop" name="DPRDropserver" type="empty">
+
+  <portsForCrack val="9999" />
+  <ports>22, 21, 25, 554</ports>
+  <trace time="-1" />
+  <adminPass pass="Dropping.png"/>
+
+  <file path="tor" name="TOR.exe">#BINARY#</file>
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="serverstuff" name="index.html"></file>
+  <file path="serverstuff" name="TOR-Host.tor"></file>
+  <file path="serverstuff" name="TOR-Proxyamout.tor"></file>
+  
+</Computer>

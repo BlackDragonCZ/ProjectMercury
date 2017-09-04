@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="WelcometotheWeb">
+  <goals>
+    <goal type="getstring" target="DPR - Inquiries - SilkRoad" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/Welcome/TheRoad.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>DreadPirateRoberts</sender>
+    <subject>Welcome to the Deep Web!</subject>
+    <body>So you might already know me #PLAYER_NAME#, but i am here to get you into my "buisiness". Reply with "DPR - Inquiries - SilkRoad" to get further info
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

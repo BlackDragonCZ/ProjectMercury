@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="TheRoad2">
+  <goals>
+    <goal type="fileupload" path="home" target="playerComp" file="index.html" destPath="server" destTarget="SilkRoadProxy"/>
+    <goal type="fileupload" path="home" target="playerComp" file="TOR-Host.tor" path="server" />
+    <goal type="fileupload" path="home" target="playerComp" file="TOR-Proxyamount.tor" destPath="server" destTarget="SilkRoadProxy" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>DreadPirateRoberts</sender>
+    <subject>Building Servers</subject>
+    <body>So.. You appearently aren't a total dipshit. so i hope you know how building servers works... I made a few files you will need. 2 files which you need FOR EVERY SERVER YOU MADE (dun delete it). And the file you will need for that one server.
+    Attached are the SilkRoad's proxy and my personal dropserver.
+    (Upload from your proxy server!)
+</body>
+    <attachments>
+      <dlink target="TOR-Proxy4" />
+      <dlink target="DPRDrop" />
+      <account comp="DPRDrop" user="admin" pass="Dropping.png"/>
+    </attachments>
+  </email>
+</mission>

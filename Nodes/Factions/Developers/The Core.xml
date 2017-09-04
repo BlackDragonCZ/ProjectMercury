@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TheCore" ip="154.574.896.21" name="The Core" icon="DLCServer" type="empty">
+
+  <portsForCrack val="10" />
+  <ports>21, 22, 25, 80, 104, 1433, 192, 6881, 443, 554</ports>
+<firewall level="7" solution="REACTOR" />
+ <proxy time="1" />
+<dlink target="R_IRC" />
+<dlink target="R_Auth" />
+
+<WhitelistAuthenticatorDaemon Remote="C_Auth2"/>
+<WhitelistAuthenticatorDaemon Remote="C_Auth3"/>
+<WhitelistAuthenticatorDaemon Remote="C_Auth1"/>
+
+<file path="ReactorControl" name="Monitor.dll">#BINARY##BINARY#</file>
+<file path="ReactorControl" name="ReactorControl.dll">#BINARY#</file>
+<file path="ReactorControl" name="CoolingControl.dll">#BINARY#</file>
+
+<file path="ReactorControl2" name="Monitor.dll">#BINARY##BINARY#</file>
+<file path="ReactorControl2" name="ReactorControl.dll">#BINARY#</file>
+<file path="ReactorControl2" name="CoolingControl.dll">#BINARY#</file>
+
+<file path="ReactorControl3" name="Monitor.dll">#BINARY##BINARY#</file>
+<file path="ReactorControl3" name="ReactorControl.dll">#BINARY#</file>
+<file path="ReactorControl3" name="CoolingControl.dll">#BINARY#</file>
+
+</Computer>

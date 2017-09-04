@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail" name="Mail2Tor homestation" type="empty">
+
+<account username="#PLAYERNAME#" password="reptwhile" type="mail" />
+
+<mailServer name="Mail2Tor" color="35, 199, 10">
+
+</mailServer>
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25, 554</ports>
+  <trace time="-1" />
+
+  <file path="tor" name="TOR.exe">#BINARY#</file>
+
+</Computer>

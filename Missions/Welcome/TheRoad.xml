@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="TheRoad">
+  <goals>
+    <goal type="getadmin" target="DPR-Proxy" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/Welcome/TheRoad2.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>DreadPirateRoberts</sender>
+    <subject>Welcome to the Deep Web!</subject>
+    <body>Alright! So your interested. I'll test you in a few ways. Let's start with this one. I have a proxy setup somewhere on the deep web so connect to the pc and see if you can find it. TIP: in tor/logs you should place a file like "Connected: (FAKE-IP)" so they won't find you! (Maybe also delete the one with your ip)
+</body>
+    <attachments>
+      <dlink target="TOR-Proxy01" />
+    </attachments>
+  </email>
+</mission>

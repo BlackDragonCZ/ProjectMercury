@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DJ" ip="25.88.199.149" name="DJkrykry1" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <adminPass pass="minecraft1" />
+<firewall level="5" solution="DJKRY" />
+ <proxy time="0.5" />
+
+	<file path="home" name="BlackDragonCZ.txt">Why he has "admin"?! This is very stupid idea!</file>
+  <file path="home" name="saves.rar">#BINARY#</file>
+<file path="downloads" name="all.zip">#BINARY#</file>
+<file path="bin" name="Steam.exe">#BINARY#</file>
+<file path="bin" name="csgo.exe">#BINARY#</file>
+<file path="bin" name="CoDBlackOpsII.exe">#BINARY#</file>
+<file path="bin" name="Skype.exe">#BINARY#</file>
+<file path="bin" name="Discord.exe">#BINARY#</file>
+<file path="bin" name="gtav.exe">#BINARY#</file>
+<encryptedFile path="home" name="XXX.dec" ip="localhost" extension=".txt" header="Secret" pass="minecraft1">
+I am idiot!       
+</encryptedFile>
+
+ <eosDevice name="DJ's ePhone G6" ip="157.55.478.323" id="DJephone" icon="ePhone2" empty="true" passOverride="alpine">
+  
+ <note>center.txt
+	home: 25.88.199.149
+
+	Base: 25.55.487.887
+
+	router: 587.23.1.14</note>
+
+    <mail username="DJ@jmail.com" pass="F78eSd257" />
+
+    <file path="eos/projectX" name="Projectx.txt">365.477.0.158</file>
+  </eosDevice>
+
+
+
+</Computer>

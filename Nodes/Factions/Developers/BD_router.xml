@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BD_router"  name="BD_Router" icon="chip" type="empty">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 25, 80, 1433</ports>
+  <adminPass pass="RPG" />
+<firewall level="8" solution="OVERLORD" />
+ <proxy time="2" />
+<dlink target="BD_Auth" />
+
+
+<file path="home" name="info.txt">
+
+MainFrame emergence password: d5er74ys
+
+</file>
+
+  <Memory>
+    <Commands>
+    </Commands>
+    <Data>
+      <Block>
+Mainframe Auth:
+Login: admin
+Pass: n8u5v432kj</Block>
+    </Data>
+    <Images>
+    </Images>
+  </Memory>
+
+</Computer>

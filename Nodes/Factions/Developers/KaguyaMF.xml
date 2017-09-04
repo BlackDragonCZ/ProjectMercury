@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="K_Main" name="Kaguya MainFrame" ip="87.888.54.142" icon="DLCServer" type="empty">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 25, 80</ports>
+<firewall level="4"  />
+ <proxy time="1" />
+
+
+<WhitelistAuthenticatorDaemon Remote="K_Auth"/>
+
+<file path="home" name="dec.txt">
+password.dec  pass=core
+</file>
+</Computer>

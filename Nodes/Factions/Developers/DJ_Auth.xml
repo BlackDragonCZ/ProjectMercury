@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DJ_Auth" ip="001.254.1.1" name="DJ Authenticator" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>104</ports>
+ <proxy time="0.5" />
+
+<dlink target="DJMain" />
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

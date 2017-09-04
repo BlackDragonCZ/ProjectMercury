@@ -1,0 +1,15 @@
+
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DPRProxy" name="JustAnotherProxy" ip="#RANDOM_IP#" type="3" allowsDefaultBootModule="false" icon="DLCServer"/>
+<adminPass pass="SOMETHINGSOMETHINGPASSWORD" />
+<ports>80,6881,554</ports>
+<portsForCrack val="2" />
+<proxy time="1" />
+<firewall level="5" solution="TheOn" additionalTime="1"/>
+
+<admin type="progress" resetPassword="false" isSuper="False"/>
+
+<file path="tor" name="Tor.exe"></file>
+<file path="tor" name="Tor_Node.exe"></file>
+<file path="serverstuff" name="TOR-Proxyamout.tor"></file>
+</Computer>

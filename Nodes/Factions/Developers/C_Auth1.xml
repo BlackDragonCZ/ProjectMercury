@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C_Auth1"  name="CoreAuthenticator"  icon="DLCServer" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>21, 22, 25, 80, 1433</ports>
+ <proxy time="1" />
+
+<dlink target="C_Auth2" />
+<dlink target="TheCore" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

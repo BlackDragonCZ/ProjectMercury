@@ -1,0 +1,26 @@
+config playerComp jmail 1.5 $#%#$
+connect $#%#$
+openPort 554 $#%#$
+delay 3 $#%#$
+openPort 21 $#%#$
+delay 3 $#%#$
+openPort 25 $#%#$
+
+stopMuic $#%#$
+
+clearTerminal $#%#$
+
+writel So you think you can get away with the stuff ya are doing? $#%#$
+writel Ya think ya aren't on them watchlists? $#%#$
+writel YOU ARE FUCKING STUPID #PLAYERNAME# $#%#$
+writel YES I KNOW WHO YOU FUCKING ARE $#%#$
+flash $#%#$
+setAdminPass YouAreFucked $#%#$
+
+openCDTray $#%#$
+writel You still have one of those? $#%#$
+writel How old are ya? 69??? $#%#$
+closeCDTray $#%#$
+
+writel Cya! $#%#$
+instanttrace $#%#$

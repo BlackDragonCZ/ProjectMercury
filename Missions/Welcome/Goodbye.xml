@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Goodbye">
+  <goals>
+    <goal type="getadmin" target="TheCore" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>DreadPirateRoberts</sender>
+    <subject>Goodbye.</subject>
+    <body>So... Your a great fucking man. But you are too fucking good to go into this fucking buisiness man.
+You should check the "legal" parts of the hacking industry. I might have somewhere to go for you. It's a long path, so take your time.
+</body>
+    <attachments>
+      <dlink target="DJ" />
+    </attachments>
+  </email>
+</mission>

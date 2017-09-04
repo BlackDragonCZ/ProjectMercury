@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="npc" name="#PLAYERNAME#'s DarkNetStation" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25, 554</ports>
+  <trace time="-1" />
+
+  <file path="tor" name="TOR.exe">#BINARY#</file>
+
+   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+</Computer>

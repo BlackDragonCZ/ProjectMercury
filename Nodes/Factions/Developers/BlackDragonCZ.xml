@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Black" ip="25.76.88.192" name="BlackDragonCZ" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="999999" />
+  <ports>21, 22, 25, 80, 104, 1433, 192, 6881, 443, 554</ports>
+  <adminPass pass="admin" />
+<firewall level="8" solution="OVERLORD" />
+ <proxy time="2" />
+<dlink target="BD_Main" />
+<dlink target="BD_router" />
+
+<file path="bin" name="Steam.exe">#BINARY##BINARY#</file>
+<file path="bin" name="trnt.exe">#TORRENT_EXE#</file>
+<file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+<encryptedFile path="home" name="topsecret.dec" ip="localhost" extension=".txt" header="hope" double="true" pass="dragon">
+https://www.furaffinity.net/user/blackdragoncz/
+</encryptedFile>
+</Computer>

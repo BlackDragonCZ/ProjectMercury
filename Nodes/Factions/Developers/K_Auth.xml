@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="K_Auth"  name="KaguyaAuthenticationServer" ip="87.888.54.1" icon="DLCServer" type="empty">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 25, 80, 1433</ports>
+<firewall level="8"  />
+ <proxy time="2" />
+
+<dlink target="K_Auth2" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

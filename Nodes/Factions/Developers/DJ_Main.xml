@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DJMain" ip="25.55.487.887" name="DJ's Control Panel" type="empty">
+
+  <portsForCrack val="10" />
+<ports>22, 21, 25, 80, 1433, 104, 6881, 192, 443, 554</ports>
+  <adminPass pass="register" />
+<firewall level="15" />
+ <proxy time="0.5" />
+<trace time="100" />
+
+
+<WhitelistAuthenticatorDaemon Remote="DJ_Auth"/>
+
+<customthemefile path="home" name="Dino_x-server.sys" themePath="Themes/CoelTheme.xml"/>
+
+</Computer>

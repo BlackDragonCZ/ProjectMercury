@@ -1,0 +1,77 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="R_IRC" name="Reactor IRC" ip="TheCoreIRC"  type="4" icon="DLCServer">
+
+	<portsForCrack val="5" />
+	<ports>22, 21, 80, 1433, 192</ports>
+	<firewall level="14" solution="NUCLEARWARHEAD" />
+  <portRemap>ssh=1234,ftp=99,web=9050,1433=6881</portRemap>
+
+<WhitelistAuthenticatorDaemon Remote="R_Auth"/>
+
+
+<account username="Kate" password="euclid" color="255,0,255"  />
+
+<IRCDaemon themeColor="255, 255, 161" name="Reactor IRC" needsLogin="true">
+    <user name="UNKNOWN" pass="kod3r" color="139,139,139"/>
+    <user name="Kaguya" pass="s7e7C5awqE" color="112,198,255"/>
+	<user name="Thiro" pass="er54d4a8qTZ22xy" color="206,206,206"/>
+    <user name="BlackDragonCZ" pass="5848q4sdr1" color="58,202,146"/>
+     <user name="GgPlayDJ" pass="5tr8ht54h815h" color="204, 0, 0"/>
+	<user name="SERVER" color="228,234,0"/>
+<!--	<user name="Kate" pass="euclid" color="255,0,255" />  -->
+
+	<post user="Kate">What we will do now?</post>
+    <post user="UNKNOWN">We need to defence this IRC</post>
+    <post user="Kaguya">Don't worry, we are THE DEFENCE!</post>
+    <post user="BlackDragonCZ">Yep, this IRC is only for us!</post>
+    <post user="UNKNOWN">That's so cool!</post>
+	<post user="BlackDragonCZ">Guys, where is Kate?</post>
+	<post user="SERVER">==========================</post>
+	<post user="SERVER">*** @Thiro has joined ***</post>
+	<post user="SERVER">==========================</post>
+	<post user="Thiro">Hello guys, what's up?</post>
+	<post user="UNKNOWN">Who is Thiro?</post>
+	<post user="BlackDragonCZ">Don't worry, he is my very good friend</post>
+	<post user="Thiro">Who is UNKNOWN?</post>
+	<post user="Kaguya">That's a secret! :P</post>
+	<post user="Thiro">111.547.21.554</post>
+    <post user="SERVER">==========================</post>
+	<post user="SERVER">*** @GgPlayDJ has joined ***</post>
+	<post user="SERVER">==========================</post>
+    <post user="GgPlayDJ">hey guys</post>
+    <post user="BlackDragonCZ">hello</post>
+    <post user="Kaguya">hey there</post>
+    <post user="Thiro">Who the hell are you</post>
+    <post user="BlackDragonCZ">my old friend :)</post>
+    <post user="BlackDragonCZ">Btw. How are you GgPlayDJ ?</post>
+    <post user="GgPlayDJ">Fine</post>
+    <post user="GgPlayDJ">One little kid tried to hack me, but it did not work for him and probably he will never get on his computer again</post>
+    <post user="Thiro">heh XD</post>
+    <post user="BlackDragonCZ">Yeah, there are a lot of them in these days</post> 
+    <post user="GgPlayDJ">Yea and btw i add other firewall to my pc so nobody can hack it now :D</post>
+    <post user="Kaguya">So you don't mind if i will try to hack you ?</post>
+    <post user="GgPlayDJ">Here is my ip: 157.55.478.323 </post>
+    <post user="GgPlayDJ">oh crap that is my ephone</post>
+    <post user="GgPlayDJ">This is my computer : 25.55.487.887 </post>
+    <post user="GgPlayDJ">And DO NOT try to hack my phone</post>
+    <post user="Kaguya">I will not</post>
+    <post user="Kaguya">You might say that to BlackDragonCZ</post>
+    <post user="BlackDragonCZ">I will not :D</post>
+    <post user="Kaguya">Yea, Yea we know you BlackDragonCZ</post>
+    <post user="BlackDragonCZ">I will not I promise XD</post>
+    <post user="GgPlayDJ">heh XD</post>
+   <!-- <post user=""></post> -->
+  </IRCDaemon>
+
+
+
+<!--   <account username="#PLAYERNAME#" password="123321" type="3" />  -->
+
+ <!-- <DHSDaemon groupName="Reactor IRC" themeColor="255, 255, 161" allowContractAbbandon="false" addsFactionPointOnMissionComplete="true">
+    <agent name="UNKWNOWN" pass="kod3r" color="139,139,139"/>
+    <agent name="Kaguya" pass="s7e7C5awqE" color="112,198,255"/>
+    <agent name="BlackDragonCZ" pass="5848q4sdr1" color="58,202,146"/>
+	<agent name="Kate" pass="euclid" color="255,0,255" />
+  </DHSDaemon>
+  -->
+</Computer>

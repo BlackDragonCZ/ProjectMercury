@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+    <Instantly>
+    <AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+    
+  </Instantly>
+  
+  <OnConnect target="DPR-Proxy">
+  	<AddAsset Filename="Connected: #PLAYERIP#" FileContents="#BINARY#" TargetComp="DPR-Proxy" TargetFolderpath="tor/logs" />
+  </OnConnect>
+</ConditionalActions>
